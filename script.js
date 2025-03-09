@@ -44,6 +44,9 @@ ScrollReveal().reveal('.home-img,.services-container,.portfolio-box,.contact for
 ScrollReveal().reveal('.home-content h1,.about-img',{origin:'left'});
 ScrollReveal().reveal('.home-content p,.about-content',{origin:'right'});
 
+ScrollReveal().reveal('.skills-container', { origin: 'bottom' });
+
+
 const typed = new Typed('.multiple-text',{
     strings:['CSE Student at GCE Salem ','Frontend developer'],
     typeSpeed:100,

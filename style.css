@@ -488,3 +488,48 @@
    margin-top: -10px;
    display: block;
 }
+
+.skills {
+   background: var(--second-bg-color);
+   padding-bottom: 7rem;
+}
+
+.skills h2 {
+   text-align: center;
+   font-size: 4.5rem;
+   margin-bottom: 4rem;
+}
+
+.skills-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 2rem;
+}
+
+.skill-box {
+   flex: 1 1 20rem;
+   background: var(--bg-color);
+   padding: 2.5rem;
+   border-radius: 1.5rem;
+   text-align: center;
+   border: .2rem solid var(--main-color);
+   transition: .5s ease;
+}
+
+.skill-box:hover {
+   transform: scale(1.05);
+   box-shadow: 0 0 1rem var(--main-color);
+}
+
+.skill-box i {
+   font-size: 5rem;
+   color: var(--main-color);
+   margin-bottom: 1rem;
+}
+
+.skill-box h3 {
+   font-size: 2rem;
+   color: var(--text-color);
+}
